@@ -30,6 +30,7 @@ public class test1_TwoSum {
     为了减少上述BF算法的时间复杂度,我们可以考虑牺牲空间复杂度来减少时间复杂度.将上述过程的问题分解并将查询操作复杂度降为O(1)
     这里我们可以看到在BF算法的第2层循环其实就是一个查询的数组是否含有某个元素的过程.而我们知道查询算法的时间效率最高的就是HashMap了,查询操作为O(1).
     在这里我们使用HashMap的key为数组的值,value为数组的索引.
+    注意:在java8的中HashMap底层实现是数组+List,但是当冲突过多List太长的时候,引入红黑树进行查找的优化.
      */
     public int[] twoSum1(int[] nums, int target) {
         int[] result = new int[2];
