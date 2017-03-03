@@ -10,7 +10,7 @@ import java.util.HashMap;
  *  Because nums[0] + nums[1] = 2 + 7 = 9,
  *  return [0, 1].
  */
-public class test1_TwoSum {
+public class Test1_TwoSum {
     /*
      这是一个O(n^2)的算法,Brute Force求解;
      */
