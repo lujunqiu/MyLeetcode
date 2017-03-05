@@ -90,6 +90,7 @@ public class Test5_Longest_Palindromic_Substring {
         return s.substring(begin + 1, end);//易错!
     }
 
+    
     public static void main(String[] args) {
         System.out.println(longestPalindrome("a"));
         System.out.println(longestPalindrome("aba"));
