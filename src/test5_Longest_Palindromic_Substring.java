@@ -60,7 +60,7 @@ public class Test5_Longest_Palindromic_Substring {
     时间复杂度:O(n^2).
     实质:利用回文串中心对称的特性得到所有可能的解(得到的是所有回文子字符串)------比较之后得到最优解
      */
-    public static String longestPalindrome(String s) {
+    public static String expandAroundCenter(String s) {
         if (s.isEmpty())
             return null;
         if (s.length() == 1)
@@ -90,13 +90,110 @@ public class Test5_Longest_Palindromic_Substring {
         return s.substring(begin + 1, end);//易错!
     }
 
-    
+    /*
+    方法三:
+    动态规划DP求解:
+    避免重复的计算相同的子问题的解,我们设计了一个2维数组来保存子问题的解,逐步完善这个数组最终求得原始问题的解.
+    假设table[ i ][ j ]的值为true，表示字符串s中下标从 i 到 j 的字符组成的子串是回文串。那么可以推出：
+    table[ i ][ j ] = table[ i + 1][ j - 1] && s[ i ] == s[ j ]
+    通过上面这个公式,我们可以根据子问题一步步的搜索最优解,并且最后肯定问题能收敛.
+    我们只需要一开始初始化table表即可.在初始化的时候,我们要分2个情况考虑,"aba"型和"abba"型的回文字符串,表现在table表上就是table矩阵的对角线以及对角线右上移动一单位的值.
+    然后根据初始化的值,逐步向2侧比较扩展字符串,扩大子问题的规模.体现在table表上就是我们在初始化的2条对角线上遍历所有的点,对于每个点我们往右上45度角的方向求出table表里的其他的值.注意:在我们定义的问题中,table表对角线下方的值是无意义的.
+    时间复杂度:O(n^2).运用DP通过子问题一步一步的扩大求最优解.table表的设计以及回文串的特性很关键,是我们能运用DP求解的基础.
+     */
+    public static String longestPalindrome(String s) {
+        if (s.isEmpty()) {
+            return null;
+        }
+        if (s.length() <= 1) {
+            return s;
+        }
+        
+        int length = s.length();
+        //table[i][j]的值表示字符串的i到j的子字符串是否是回文子串,若是值为长度,若不是值为0
+        int[][] table = new int[s.length()][s.length()];
+        int maxLength = 0;
+        String longestString = null;
+        
+        /*
+        初始化"aba"型的回文串最初解.
+         */
+        for (int i = 0; i < length; i++) {
+            table[i][i] = 1;
+            maxLength = 1;
+            longestString = s.substring(i, i + 1);
+        }
+        /*
+        初始化"abba"型回文串的最初解
+         */
+        for (int i = 0; i <= length - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                table[i][i + 1] = 2;
+                maxLength = 2;
+                longestString = s.substring(i, i + 2);
+            }
+        }
+//        printTable(table);
+
+        /*
+        根据初始化的值,扩大子问题的规模,把子字符串向2侧比较扩展,求解所有"aba"回文字符串的解
+         */
+        for (int i = 0; i < length; i++) {
+            int x = i;
+            int y = i;
+            while ((x - 1) >= 0 && (y + 1) <= length - 1 && s.charAt(x - 1) == s.charAt(y + 1)) {
+                table[x - 1][y + 1] = table[x][y] + 2;
+                if (table[x - 1][y + 1] > maxLength) {
+                    maxLength = table[x - 1][y + 1];
+                    longestString = s.substring(x - 1, y + 2);
+                }
+                x = x - 1;
+                y = y + 1;
+            }
+            
+        }
+
+        /*
+        根据初始化的值,扩大子问题的规模,把子字符串向2侧比较扩展,求解所有"abba"回文字符串的解
+         */
+        for (int i = 0; i < length; i++) {
+            int x = i;
+            int y = i + 1;
+            while ((x - 1) >= 0 && (y + 1) <= length - 1 && table[x][y] != 0 && s.charAt(x - 1) == s.charAt(y + 1)) {
+                table[ x - 1][y + 1] = table[x][y] + 2;
+                if (table[x - 1][y + 1] > maxLength) {
+                    maxLength = table[x - 1][y + 1];
+                    longestString = s.substring(x - 1, y + 2);
+                }
+                x = x - 1;
+                y = y + 1;
+            }
+            
+        }
+//        printTable(table);
+        return longestString;
+    }
+
+    /*
+    打印table表
+     */
+    private static void printTable(int[][] table) {
+        for (int[] x: table) {
+            for (int y : x) {
+                System.out.print( y + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("a"));
+        System.out.println(longestPalindrome("abcdasdfghjkldcba"));
         System.out.println(longestPalindrome("aba"));
         System.out.println(longestPalindrome("cbbd"));
-        System.out.println(longestPalindrome("babad"));
+        System.out.println(longestPalindrome("babab"));
         System.out.println(longestPalindrome("zxcvbbndfgababadewrvqwrqqrwqvdfsgaaaags"));
+        System.out.println(longestPalindrome("aaaaaaaaaaac"));
 
     }
 }
