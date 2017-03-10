@@ -17,9 +17,8 @@
 *.zip
 *.tar.gz
 *.rar
-.xml
+*.xml
 */.xml
-.idea/workspace.xml
 .DS_Store
 */.DS_Store
 
