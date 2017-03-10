@@ -18,6 +18,7 @@
 *.tar.gz
 *.rar
 *.xml
+*/.xml
 .DS_Store
 */.DS_Store
 
