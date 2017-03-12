@@ -16,7 +16,7 @@ public class Test3_Longest_Substring_Without_Repeating_Characters {
     tips:借助hashmap来存储子字符串,同时保证每次插入新字符的时候不含相同的字符,hashmap的containsKey()方法的复杂度为O(1)
     时间复杂度为O(n^2)
      */
-    public int BruteForce(String s) {
+    public static int BruteForce(String s) {
         char[] str = s.toCharArray();
         int max = 0;
         for (int i = 0; i < str.length; i++) {
@@ -35,6 +35,7 @@ public class Test3_Longest_Substring_Without_Repeating_Characters {
         }
         return max;
     }
+
     /*
     我们其实不需要搜索所有的不含相同字符的子字符串,根据问题的要求我们可以少搜索一些子字符串
     假设:
@@ -45,7 +46,7 @@ public class Test3_Longest_Substring_Without_Repeating_Characters {
     因为函数只需要输出最长的长度,我们可以只用一个hashmap来保存当前搜索的子字符串
     那么有没有O(n)的方法呢?
      */
-    public int OptimizedBruteForce(String s) {
+    public static int OptimizedBruteForce(String s) {
         char[] arr = s.toCharArray();
         int len = 0;
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
@@ -61,18 +62,37 @@ public class Test3_Longest_Substring_Without_Repeating_Characters {
         return Math.max(len, map.size());
     }
 
-    public int Accepted(String s) {
-        int[] occ = new int[256];
-        int max = 0, counter = 0, start = 1;
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (occ[ch] >= start) {
-                counter -= occ[ch] - start + 1;
-                start = occ[ch] + 1;
+    /*
+    同样,按照上面的思路,但是我们换一个角度来考虑,就可以把时间复杂度降到O(n).上面2个方法中,index j是会回溯的,但是我们发现这个回溯其实是重复计算的,完全可以避免.
+    这里引入一个在array/string 问题中很常见的模型---sliding window:一个可以滑动的窗口.
+    考虑到OptimizedBruteForce方法中的优化,我们适用hashmap来表示滑动窗口(如果不考虑存储键值对可以用hashset).
+    滑动过程:首先,i=j窗口大小为1,然后i不变,j向右滑动,新遇到的字符存入hashmap,直到map中有重复的字符,j停止滑动.
+    这时,i直接滑动到与j重复的字符的下一个字符(需要hashmap来保存这一信息),然后继续滑动j.直到i或者j到达字符串的末尾,过程中保留最优解即可.
+     */
+    public static int SlidingWindow(String s) {
+        int len = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+        int i = 0,j = 0 ;
+        while (j < s.length() && i < s.length()) {
+            if (!map.containsKey(s.charAt(j))) {
+                map.put(s.charAt(j), j);
+
+                len = len > (j - i + 1) ? len : j - i + 1;
+                j++;
+            } else {
+                for (int k = i; k < map.get(s.charAt(j)); k++) {
+                    map.remove(s.charAt(k));
+                }
+                i = map.get(s.charAt(j)) + 1;
+                map.remove(s.charAt(j));
             }
-            occ[ch] = i + 1;
-            max = Math.max(max, ++counter);
         }
-        return max;
+        return len;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(SlidingWindow("abcabcbb"));
+        System.out.println(SlidingWindow("bbbbbb"));
+        System.out.println(SlidingWindow("pwwkew"));
     }
 }
