@@ -61,10 +61,43 @@ public class Test55_Jump_Game {
     }
 
     /*
+    Leetcode给出了2个解法,DP的解法(TLE)以及贪婪算法的解法(AC).
     Leetcode Editorial Solution:
      */
+    enum Index {
+        GOOD, BAD, UNKNOWN
+    }
     static public boolean canJump3(int[] nums) {
+        Index[] memo = new Index[nums.length];
+        for (int i = 0; i < memo.length; i++) {
+            memo[i] = Index.UNKNOWN;
+        }
+        memo[memo.length - 1] = Index.GOOD;
 
+        for (int i = nums.length - 2; i >= 0; i--) {
+            int furthestJump = Math.min(i + nums[i], nums.length - 1);
+            for (int j = i + 1; j <= furthestJump; j++) {
+                if (memo[j] == Index.GOOD) {
+                    memo[i] = Index.GOOD;
+                    break;
+                }
+            }
+        }
+
+        return memo[0] == Index.GOOD;
+    }
+    /*
+    Leetocode Editorial Solution :贪婪算法
+    从数组末尾开始遍历,只用一个可达的索引的值来判断其他节点的可达性.
+     */
+    public boolean canJump4(int[] nums) {
+        int lastPos = nums.length - 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (i + nums[i] >= lastPos) {
+                lastPos = i;
+            }
+        }
+        return lastPos == 0;
     }
 
     public static void main(String[] args) {
