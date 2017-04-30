@@ -44,7 +44,7 @@ public class Test101_Symmetric_Tree {
 
     /*
     将上述递归的方法写成非递归的形式;
-    思路是一样的,使用2个栈来再现上述递归的过程.但是我第一次实现的非递归的代码虽然AC了,里面有太多的if else,看起来很别扭.....后面我会把Editorial Solution贴出来反思学习.
+    思路是一样的,使用2个栈来再现上述递归的过程.但是我第一次实现的非递归的代码虽然AC了,里面有太多的if else(考虑了太多关于null的问题),看起来很别扭.....后面我会把Editorial Solution贴出来反思学习.
      */
     public boolean nonrecursive(TreeNode root) {
         Stack<TreeNode> leftstack = new Stack<>();
