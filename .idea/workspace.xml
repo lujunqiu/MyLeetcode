@@ -32,31 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test162_Find_Peak_Element.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test162_Find_Peak_Element.java">
+      <file leaf-file-name="Test209_Minimum_Size_Subarray_Sum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test66_Plus_One.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test66_Plus_One.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34026465">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test64_Minimum_Path_Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test64_Minimum_Path_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7568579">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/Test9_Palindrome_Number.java" />
         <option value="$PROJECT_DIR$/src/Test162_Find_Peak_Element.java" />
         <option value="$PROJECT_DIR$/src/Test66_Plus_One.java" />
+        <option value="$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java" />
       </list>
     </option>
   </component>
@@ -151,9 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +166,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,23 +182,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/lujunqiuLeetcode" />
     <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lujunqiu/Downloads/Leetcode/src/Test66_Plus_One.java" />
   </component>
-  <component name="RunManager" selected="Application.Test66_Plus_One">
-    <configuration default="false" name="Test97_Interleaving_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test97_Interleaving_String" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test209_Minimum_Size_Subarray_Sum">
     <configuration default="false" name="Test139_Word_Break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test139_Word_Break" />
@@ -266,6 +233,21 @@
     <configuration default="false" name="Test66_Plus_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test66_Plus_One" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test209_Minimum_Size_Subarray_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test209_Minimum_Size_Subarray_Sum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -689,19 +671,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test97_Interleaving_String" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test139_Word_Break" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test135_Candy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test9_Palindrome_Number" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test66_Plus_One" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test139_Word_Break" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test135_Candy" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test9_Palindrome_Number" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test66_Plus_One" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test209_Minimum_Size_Subarray_Sum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test66_Plus_One" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test9_Palindrome_Number" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test135_Candy" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test139_Word_Break" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test97_Interleaving_String" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test209_Minimum_Size_Subarray_Sum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test66_Plus_One" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test9_Palindrome_Number" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test135_Candy" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test139_Word_Break" />
       </list>
     </recent_temporary>
   </component>
@@ -762,12 +744,13 @@
       <workItem from="1500798382177" duration="2166000" />
       <workItem from="1501199495667" duration="26000" />
       <workItem from="1501504073539" duration="212000" />
-      <workItem from="1502983703504" duration="205000" />
+      <workItem from="1502983703504" duration="305000" />
+      <workItem from="1503242370889" duration="2452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102858000" />
+    <option name="totallyTimeSpent" value="105410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -780,7 +763,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -826,13 +809,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test19_Remove_Nth_Node_From_End_of_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test19_Remove_Nth_Node_From_End_of_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1189,8 +1165,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test66_Plus_One.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34026465">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7568579">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
