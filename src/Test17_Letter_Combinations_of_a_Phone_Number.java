@@ -12,11 +12,15 @@ import java.util.*;
 public class Test17_Letter_Combinations_of_a_Phone_Number {
 
     public static void main(String[] args) {
-
+        for (String s : NonRecursionletterCombinations("23")) {
+            System.out.println(s);
+        }
     }
 
     /*
-    拿到题目第一想法就是深度优先搜索.
+    拿到题目第一想法就是深度优先搜索,类比求0-9中某个数字的全排列问题.
+    在设计深度优先搜索递归的时候,需要注意在访问节点返回的时候(回溯的时候)将是否访问的标识位改回来,并且在当次深度优先搜索过程的结果集合中(StringBuilder)删去当前节点.
+    但是,下面这份代码虽然AC了,可是效率不高,属于在AC的代码中排在很后面的那种.我们可以在java代码层面重构一下代码,提高运行的效率,比如map的使用可以替换掉.
      */
     public List<String> letterCombinations(String digits) {
         List<String> list = new ArrayList<>();
@@ -64,58 +68,11 @@ public class Test17_Letter_Combinations_of_a_Phone_Number {
     }
 
     /*
-
+    非递归算法:类似广度优先搜索的思想
+    关键在于:使用2个List<String>,每次从上次的结果List<String>添加字符扩展得到当前结果的List<String>,然后将当前结果赋值给"上次结果List<String>",继续循环操作,直到结束.
      */
-    public List<String> ImprovedletterCombinations(String digits) {
-        List<String> result = new ArrayList<String>();
-        String[] keys={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-        //Example is 45
-        StringBuilder s=new StringBuilder();
-        if(digits.length()!=0){
-            findWordsIterative(digits,result,s,keys,0);
-        }
-        //System.out.println(result.toString());
-        return result;
-    }
-
-    private static void findWordsIterative(String digits, List<String> result,StringBuilder s,String[] keys, int digit) {
-        char[] res = new char[digits.length()];
-        int digitsLength = digits.length();
-        for(int i=0;i<digits.length();i++){
-            res[i]=keys[digits.charAt(i)-'0'].charAt(0);
-        }
-
-        while(true){
-            //System.out.println(resNew);
-            result.add(new String(res));
-
-            for(int i=digitsLength-1;i>=-1;i--){
-                if(i==-1){
-                    return;
-                }
-                int j = keys[digits.charAt(i)-'0'].length();
-                String x = keys[digits.charAt(i)-'0'];
-                if(j-1>=0 && (res[i]==x.charAt(j-1) || digits.charAt(i)-'0'==0 || digits.charAt(i)-'0'==1)){
-                    res[i]=x.charAt(0);
-                }else if(j-2>=0 && res[i]==x.charAt(j-2)){
-                    res[i]=x.charAt(j-1);
-                    break;
-                }else if(j-3>=0 && res[i]==x.charAt(j-3)){
-                    res[i]=x.charAt(j-2);
-                    break;
-                }else if(j-4>=0 && res[i]==x.charAt(j-4)){
-                    res[i]=x.charAt(j-3);
-                    break;
-                }
-            }
-        }
-    }
-
-    /*
-
-     */
-    public List<String> NonRecursionletterCombinations(String digits) {
-        List<String> res = new ArrayList<>();
+    static public List<String> NonRecursionletterCombinations(String digits) {
+        List<String> res = new ArrayList<>();//最终结果的字符串集合
         if (digits == null || digits.length() == 0) {
             return res;
         }
@@ -133,13 +90,14 @@ public class Test17_Letter_Combinations_of_a_Phone_Number {
 
             String str = map.get(digits.charAt(i));
 
-            List<String> res2 = new ArrayList<>();
+            List<String> res2 = new ArrayList<>();//保存中间结果的字符串集合
+
             for (int j = 0; j < str.length(); j++) {
                 for (String pre : res) {
-                    res2.add(pre + str.charAt(j));
+                    res2.add(pre + str.charAt(j));//从上一个字符串集合扩展得到的新的字符串集合
                 }
             }
-            res = res2;
+            res = res2;//更新最终结果的字符串集合
         }
 
         return res;
