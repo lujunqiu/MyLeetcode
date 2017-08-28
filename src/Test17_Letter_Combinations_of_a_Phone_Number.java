@@ -69,7 +69,7 @@ public class Test17_Letter_Combinations_of_a_Phone_Number {
 
     /*
     非递归算法:类似广度优先搜索的思想
-    关键在于:使用2个List<String>,每次从上次的结果List<String>添加字符扩展得到当前结果的List<String>,然后将当前结果赋值给"上次结果List<String>",继续循环操作,直到结束.
+    关键在于:使用2个List<String>,每次从上次的结果List<String>添加字符扩展得到当前结果的List<String>,然后将当前结果赋值给"上次结果List<String>",继续循环操作,直到结束.1
      */
     static public List<String> NonRecursionletterCombinations(String digits) {
         List<String> res = new ArrayList<>();//最终结果的字符串集合
@@ -83,7 +83,7 @@ public class Test17_Letter_Combinations_of_a_Phone_Number {
         map.put('7', "pqrs"); map.put('8', "tuv");
         map.put('9', "wxyz");
 
-        res.add("");
+        res.add("");//初始化结果为一个空字符串
         for (int i = 0; i<digits.length(); i++) {
 
             if (!map.containsKey(digits.charAt(i))) continue;

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test17_Letter_Combinations_of_a_Phone_Number.java" afterPath="$PROJECT_DIR$/src/Test17_Letter_Combinations_of_a_Phone_Number.java" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="Test17_Letter_Combinations_of_a_Phone_Number.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test17_Letter_Combinations_of_a_Phone_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1215138">
-              <caret line="71" column="113" selection-start-line="71" selection-start-column="113" selection-end-line="71" selection-end-column="113" />
+            <state vertical-scroll-proportion="0.4322709">
+              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -749,12 +750,12 @@
       <workItem from="1502983703504" duration="305000" />
       <workItem from="1503242370889" duration="2583000" />
       <workItem from="1503574117912" duration="204000" />
-      <workItem from="1503672175444" duration="5570000" />
+      <workItem from="1503672175444" duration="5660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111315000" />
+    <option name="totallyTimeSpent" value="111405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1179,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test17_Letter_Combinations_of_a_Phone_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1215138">
-          <caret line="71" column="113" selection-start-line="71" selection-start-column="113" selection-end-line="71" selection-end-column="113" />
+        <state vertical-scroll-proportion="0.4322709">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
           <folding />
         </state>
       </provider>
