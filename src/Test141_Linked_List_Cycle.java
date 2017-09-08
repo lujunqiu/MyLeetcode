@@ -17,7 +17,7 @@ import java.util.Set;
  * }
  * }
  */
-public class Test_141_Linked_List_Cycle {
+public class Test141_Linked_List_Cycle {
     /*
     我看到这个题目,首先想到的就是遍历所有节点,保存下来,如果在遍历得过程中发现重复的节点就判断有环,反之,则没有.
     这里可以用set集合来保存节点.
