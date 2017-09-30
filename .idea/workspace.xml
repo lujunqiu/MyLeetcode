@@ -72,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test673_Number_of_Longest_Increasing_Subsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test673_Number_of_Longest_Increasing_Subsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test673_Number_of_Longest_Increasing_Subsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3402647">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test675_Cut_Off_Trees_for_Golf_Event.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test675_Cut_Off_Trees_for_Golf_Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.97011954">
+              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -152,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/Test679_24_Game.java" />
         <option value="$PROJECT_DIR$/src/Test494_Target_Sum.java" />
         <option value="$PROJECT_DIR$/src/Test673_Number_of_Longest_Increasing_Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/Test675_Cut_Off_Trees_for_Golf_Event.java" />
       </list>
     </option>
   </component>
@@ -189,9 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,6 +234,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,22 +252,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lujunqiu/Downloads/Leetcode/src/Test66_Plus_One.java" />
   </component>
-  <component name="RunManager" selected="Application.Test673_Number_of_Longest_Increasing_Subsequence">
-    <configuration default="false" name="Test678_Valid_Parenthesis_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test678_Valid_Parenthesis_String" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test675_Cut_Off_Trees_for_Golf_Event">
     <configuration default="false" name="Test322_Coin_Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test322_Coin_Change" />
@@ -305,6 +301,21 @@
     <configuration default="false" name="Test673_Number_of_Longest_Increasing_Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test673_Number_of_Longest_Increasing_Subsequence" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test675_Cut_Off_Trees_for_Golf_Event" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test675_Cut_Off_Trees_for_Golf_Event" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -728,19 +739,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test678_Valid_Parenthesis_String" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test322_Coin_Change" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test679_24_Game" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test494_Target_Sum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test673_Number_of_Longest_Increasing_Subsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test322_Coin_Change" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test679_24_Game" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test494_Target_Sum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test673_Number_of_Longest_Increasing_Subsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test675_Cut_Off_Trees_for_Golf_Event" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test673_Number_of_Longest_Increasing_Subsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test494_Target_Sum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test679_24_Game" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test322_Coin_Change" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test678_Valid_Parenthesis_String" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test675_Cut_Off_Trees_for_Golf_Event" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test673_Number_of_Longest_Increasing_Subsequence" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test494_Target_Sum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test679_24_Game" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test322_Coin_Change" />
       </list>
     </recent_temporary>
   </component>
@@ -816,12 +827,13 @@
       <workItem from="1506340314970" duration="3584000" />
       <workItem from="1506345390724" duration="161000" />
       <workItem from="1506347134375" duration="3643000" />
-      <workItem from="1506525869845" duration="4235000" />
+      <workItem from="1506525869845" duration="4407000" />
+      <workItem from="1506733770103" duration="5158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160170000" />
+    <option name="totallyTimeSpent" value="165500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -865,7 +877,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -880,13 +892,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test70_Climbing_Stairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test27_Remove_Element.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26119402">
@@ -1226,6 +1231,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test673_Number_of_Longest_Increasing_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test494_Target_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1234,10 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test673_Number_of_Longest_Increasing_Subsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/Test675_Cut_Off_Trees_for_Golf_Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3402647">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.97011954">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding />
         </state>
       </provider>
