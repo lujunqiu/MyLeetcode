@@ -66,11 +66,15 @@ public class Test681_Next_Closest_Time {
                 ans[i] = digits[j];
                 if (i == 1) {//如果小时数超过24,则停止这条搜索路径
                     int hour = 10 * ans[0] + ans[1];
-                    if (hour >= 0 && hour <= 23) dfs(digits, i + 1, ans);
+                    if (hour >= 0 && hour <= 23){
+                        dfs(digits, i + 1, ans);
+                    }
                 }
                 else if (i == 3) {//如果分钟数超过60,则停止这条搜索路径
                     int minu = 10 * ans[2] + ans[3];
-                    if (minu >= 0 && minu <= 59) dfs(digits, i + 1, ans);
+                    if (minu >= 0 && minu <= 59) {
+                        dfs(digits, i + 1, ans);
+                    }
                 }
                 else {
                     dfs(digits, i + 1, ans);
