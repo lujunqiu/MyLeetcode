@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test681_Next_Closest_Time.java" afterPath="$PROJECT_DIR$/src/Test681_Next_Closest_Time.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java" afterPath="$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,24 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test4_Median_of_Two_Sorted_Arrays.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java">
+      <file leaf-file-name="Test35_Search_Insert_Position.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test35_Search_Insert_Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6022444">
-              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test697_Degree_of_an_Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test697_Degree_of_an_Array.java">
+      <file leaf-file-name="Test4_Median_of_Two_Sorted_Arrays.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="1.4261364">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test3_Longest_Substring_Without_Repeating_Characters.java" />
         <option value="$PROJECT_DIR$/src/Test11_Container_With_Most_Water.java" />
         <option value="$PROJECT_DIR$/src/Test_14_Longest_Common_Prefix.java" />
         <option value="$PROJECT_DIR$/src/Test14_Longest_Common_Prefix.java" />
@@ -138,9 +135,10 @@
         <option value="$PROJECT_DIR$/src/Test693_Binary_Number_with_Alternating_Bits.java" />
         <option value="$PROJECT_DIR$/src/Test695_Max_Area_of_Island.java" />
         <option value="$PROJECT_DIR$/src/Test686_Repeated_String_Match.java" />
-        <option value="$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java" />
         <option value="$PROJECT_DIR$/src/Test681_Next_Closest_Time.java" />
         <option value="$PROJECT_DIR$/src/Test697_Degree_of_an_Array.java" />
+        <option value="$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java" />
+        <option value="$PROJECT_DIR$/src/Test35_Search_Insert_Position.java" />
       </list>
     </option>
   </component>
@@ -812,12 +810,12 @@
       <workItem from="1507514758994" duration="5362000" />
       <workItem from="1507726853693" duration="7549000" />
       <workItem from="1508168091884" duration="409000" />
-      <workItem from="1508241781106" duration="6191000" />
+      <workItem from="1508241781106" duration="10616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186499000" />
+    <option name="totallyTimeSpent" value="190924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -831,7 +829,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33012047" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012047" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -877,13 +875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1984878">
@@ -1228,15 +1219,23 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test35_Search_Insert_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test4_Median_of_Two_Sorted_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6022444">
-          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+        <state vertical-scroll-proportion="1.4261364">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>

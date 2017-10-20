@@ -15,7 +15,13 @@
  */
 public class Test4_Median_of_Two_Sorted_Arrays {
     /**
-
+    这里,我们需要用到中位数另外一种解释:
+     将集合内的数字分为两部分,每部分的数字个数相同,并且其中一个部分的任意数字都大于另外部分的数字.对于一个长度为m的数组,总共有m+1种切分方法.
+    对于2个排好序的数组,我们也按照上述的定义,将数组切分.我们分别切分两个数组,然后将切分之后的2个数组中数值较小的部分合并,数值较大的部分合并.
+    对于数组A(长度为m)切分点为i,对于数组B(长度为n)切分点在j,为了保证切分之后2个部分的集合长度相等,i,j需要满足i+j=(m + n + 1) / 2
+    满足了长度要求之后,我们需要满足数值大小的关系,需要左边集合的数值都小于右边集合,由于2个数组直接是排好序的,只需要比较2个切分点周围的值即可,如果满足条件则输出.如果不满足条件,根据大小关系调整切分点的位置,相当于二分查找切分点的位置.
+    在找满足条件的切分点的时候,2个切分点是联动的,我们只需要确定一个即可,可以从较短的数组开始切分.
+    时间复杂度:log(min(m,n))
      */
     static public double findMedianSortedArrays(int[] A, int[] B) {
         int m = A.length;
@@ -31,11 +37,13 @@ public class Test4_Median_of_Two_Sorted_Arrays {
             int j = halfLen - i;
             //i太小了,iMin界限右移
             if (i < iMax && B[j-1] > A[i]){
-                iMin = iMin + 1;
+//                iMin = iMin + 1;
+                iMin = i + 1;
             }
             //i太大了,iMax界限左移
             else if (i > iMin && A[i-1] > B[j]) {
-                iMax = iMax - 1;
+//                iMax = iMax - 1;
+                iMax = i;
             }
             else { //找到了合适的切分点,计算中位数即可
                 int maxLeft = 0;
