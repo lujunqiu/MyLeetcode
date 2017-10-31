@@ -27,6 +27,13 @@ public class Test35_Search_Insert_Position {
             }
         }
         return low;
+    }
 
+    public static void main(String[] args) {
+        Test35_Search_Insert_Position test = new Test35_Search_Insert_Position();
+        System.out.println(test.searchInsert(new int[]{1, 2, 3, 4, 5, 6}, 6));
+        System.out.println(test.searchInsert(new int[]{1, 2, 3, 4, 5, 6}, 7));
+        System.out.println(test.searchInsert(new int[]{1, 2, 3, 4, 5, 6}, 1));
+        System.out.println(test.searchInsert(new int[]{1, 2, 3, 4, 5, 6}, 0));
     }
 }
