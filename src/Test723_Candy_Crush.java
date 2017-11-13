@@ -31,7 +31,7 @@ public class Test723_Candy_Crush {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 int cur = board[i][j];
-                
+
                 if (cur == 0) continue;
                 if ((i - 2 >= 0 && board[i - 1][j] == cur && board[i - 2][j] == cur) ||
                         (i + 2 <= board.length - 1 && board[i + 1][j] == cur && board[i + 2][j] == cur) ||
