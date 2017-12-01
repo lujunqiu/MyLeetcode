@@ -16,8 +16,8 @@ import java.util.Map;
  */
 public class Test30_Substring_with_Concatenation_of_All_Words{
         /**
-        类似76,438题,利用滑动窗口和HashMap来解决.但是不同的是,搜索的起点有多个,才能保证搜索到所有可能的解.而且HashMap中保存的是String而不是char,但是思路是一样的,没有改变.
-         可以参考76,438题的解法:https://lujunqiu.github.io/2017/11/28/关于SubString的解决方案/
+         解决这个问题,首先要解决76,438题. 参考76,438题的解法:https://lujunqiu.github.io/2017/11/28/关于SubString的解决方案/
+         思路:利用滑动窗口和HashMap来解决.但是不同的是,搜索的起点有多个,才能保证搜索到所有可能的解.而且HashMap中保存的是String而不是char,但是思路是一样的,没有改变.
          */
         public List<Integer> findSubstring(String S, String[] L) {
             List<Integer> res = new LinkedList<>();
