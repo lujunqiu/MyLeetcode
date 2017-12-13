@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test92_Reverse_Linked_List_II.java" afterPath="$PROJECT_DIR$/src/Test92_Reverse_Linked_List_II.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" afterPath="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,11 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test739_Daily_Temperatures.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test739_Daily_Temperatures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test739_Daily_Temperatures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7672634">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test503_Next_Greater_Element_II.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47953963">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test9_Palindrome_Number.java" />
         <option value="$PROJECT_DIR$/src/Test162_Find_Peak_Element.java" />
         <option value="$PROJECT_DIR$/src/Test66_Plus_One.java" />
         <option value="$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java" />
@@ -169,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/Test234_Palindrome_Linked_List.java" />
         <option value="$PROJECT_DIR$/src/Test92_Reverse_Linked_List_II.java" />
         <option value="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" />
+        <option value="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" />
       </list>
     </option>
   </component>
@@ -859,12 +871,12 @@
       <workItem from="1512100936200" duration="2152000" />
       <workItem from="1512135438050" duration="149000" />
       <workItem from="1512181908126" duration="6855000" />
-      <workItem from="1512631178774" duration="2334000" />
+      <workItem from="1512631178774" duration="5186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257700000" />
+    <option name="totallyTimeSpent" value="260552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -936,13 +948,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test680_Valid_Palindrome_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05597015">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test354_Russian_Doll_Envelopes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34701493">
@@ -1293,8 +1298,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test739_Daily_Temperatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7672634">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47953963">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
