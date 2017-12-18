@@ -19,7 +19,9 @@ public class Test503_Next_Greater_Element_II {
     /**
      * 类比 Leetcode 739题
      * 利用单调栈(保证栈中元素是单调的)，栈中保存数组索引(比保存数值要方便很多)。
-     * 题目要求是可以循坏遍历，那么我们就按照题目的要求来寻找，遍历2次原数组即可。由于循坏遍历原数组2次，需要用到 i % nums.length 。
+     * 题目要求是可以循坏遍历，那么我们就按照题目的要求来寻找，遍历2次原数组即可。由于循坏遍历原数组2次，需要用到 i % nums.length。
+
+     * 利用单调栈还可以实现在O(1)的时间复杂度下找到栈中最小的元素的算法，思路很简单，不详细介绍了。
      */
     public int[] nextGreaterElements(int[] nums) {
         Deque<Integer> stack = new ArrayDeque<>();//在单线程中利用双端队列作为栈的实现方法，要比Vector(线程安全，会resizing)效率高很多。

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" afterPath="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" afterPath="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,56 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test438_Find_All_Anagrams_in_a_String.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test438_Find_All_Anagrams_in_a_String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test437_Path_Sum_III.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test437_Path_Sum_III.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test30_Substring_with_Concatenation_of_All_Words.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test30_Substring_with_Concatenation_of_All_Words.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test329_Longest_Increasing_Path_in_a_Matrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test329_Longest_Increasing_Path_in_a_Matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test92_Reverse_Linked_List_II.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test92_Reverse_Linked_List_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test739_Daily_Temperatures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test739_Daily_Temperatures.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,13 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test503_Next_Greater_Element_II.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test503_Next_Greater_Element_II.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47953963">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test742_Closest_Leaf_in_a_Binary_Tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51552796">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test162_Find_Peak_Element.java" />
         <option value="$PROJECT_DIR$/src/Test66_Plus_One.java" />
         <option value="$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java" />
         <option value="$PROJECT_DIR$/src/Test167_Two_Sum_II_Input_array_is_sorted.java" />
@@ -181,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/Test92_Reverse_Linked_List_II.java" />
         <option value="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" />
         <option value="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" />
+        <option value="$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java" />
       </list>
     </option>
   </component>
@@ -871,12 +833,12 @@
       <workItem from="1512100936200" duration="2152000" />
       <workItem from="1512135438050" duration="149000" />
       <workItem from="1512181908126" duration="6855000" />
-      <workItem from="1512631178774" duration="5186000" />
+      <workItem from="1512631178774" duration="9329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260552000" />
+    <option name="totallyTimeSpent" value="264695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -948,13 +910,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test354_Russian_Doll_Envelopes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34701493">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test83_Remove_Duplicates_from_Sorted_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1308,10 +1263,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47953963">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51552796">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
