@@ -41,6 +41,21 @@ public class Test121_Best_Time_to_Buy_and_Sell_Stock {
 
     }
 
+    /**
+     * 参考我写的博客：https://lujunqiu.github.io/2017/12/16/股票中的动态规划/
+     * 动态规划
+     * k==1
+     */
+    public int maxProfit_121(int[] prices) {
+        int T_i10 = 0, T_i11 = Integer.MIN_VALUE;
+
+        for (int price : prices) {
+            T_i10 = Math.max(T_i10,T_i11 + price);
+            T_i11 = Math.max(T_i11, 0 - price);
+        }
+        return T_i10;
+    }
+
     /*
     Leetcode也给出了O(n)的解法.思路是找到每个数组元素与该元素之前元素的最小值的差值,然后在这些差值中找到最大值.思路很简单粗暴,可惜我怎么没想到- -
      */

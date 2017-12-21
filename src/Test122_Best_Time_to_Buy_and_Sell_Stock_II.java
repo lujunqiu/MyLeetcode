@@ -30,4 +30,21 @@ public class Test122_Best_Time_to_Buy_and_Sell_Stock_II {
         }
         return maxProfit;
     }
+
+    /**
+     * 参考我写的博客：https://lujunqiu.github.io/2017/12/16/股票中的动态规划/
+     * 动态规划
+     * k==Infinite
+     */
+    public int maxProfit_122(int[] prices) {
+        int T_ik0 = 0, T_ik1 = Integer.MIN_VALUE;
+
+        for (int price : prices) {
+            int temp = T_ik0;
+            T_ik0 = Math.max(T_ik0, T_ik1 + price);
+            T_ik1 = Math.max(T_ik1, temp - price);
+        }
+
+        return T_ik0;
+    }
 }

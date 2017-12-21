@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test123_Best_Time_to_Buy_and_Sell_Stock_III.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test188_Best_Time_to_Buy_and_Sell_Stock_IV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" afterPath="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test121_Best_Time_to_Buy_and_Sell_Stock.java" afterPath="$PROJECT_DIR$/src/Test121_Best_Time_to_Buy_and_Sell_Stock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java" afterPath="$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java" afterPath="$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,14 +65,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test742_Closest_Leaf_in_a_Binary_Tree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java">
+      <file leaf-file-name="Test121_Best_Time_to_Buy_and_Sell_Stock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test121_Best_Time_to_Buy_and_Sell_Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51552796">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test122_Best_Time_to_Buy_and_Sell_Stock_II.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test123_Best_Time_to_Buy_and_Sell_Stock_III.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test123_Best_Time_to_Buy_and_Sell_Stock_III.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test188_Best_Time_to_Buy_and_Sell_Stock_IV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test188_Best_Time_to_Buy_and_Sell_Stock_IV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9244992">
+              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test66_Plus_One.java" />
-        <option value="$PROJECT_DIR$/src/Test209_Minimum_Size_Subarray_Sum.java" />
-        <option value="$PROJECT_DIR$/src/Test167_Two_Sum_II_Input_array_is_sorted.java" />
-        <option value="$PROJECT_DIR$/src/Test17_Letter_Combinations_of_a_Phone_Number.java" />
-        <option value="$PROJECT_DIR$/src/Test220_Contains_Duplicate_III.java" />
         <option value="$PROJECT_DIR$/src/Test22_Generate_Parentheses.java" />
         <option value="$PROJECT_DIR$/src/Test221_Maximal_Square.java" />
         <option value="$PROJECT_DIR$/src/Test50_Pow.java" />
@@ -126,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/Test33_Search_in_Rotated_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Test69_SqrtX.java" />
         <option value="$PROJECT_DIR$/src/Test81_Search_in_Rotated_Sorted_Array_II.java" />
-        <option value="$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java" />
         <option value="$PROJECT_DIR$/src/Test718_Maximum_Length_of_Repeated_Subarray.java" />
         <option value="$PROJECT_DIR$/src/Test723_Candy_Crush.java" />
         <option value="$PROJECT_DIR$/src/Test724_Find_Pivot_Index.java" />
@@ -143,6 +190,12 @@
         <option value="$PROJECT_DIR$/src/Test739_Daily_Temperatures.java" />
         <option value="$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java" />
         <option value="$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/Test121_Best_Time_to_Buy_and_Sell_Stock.java" />
+        <option value="$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+        <option value="$PROJECT_DIR$/src/Test123_Best_Time_to_Buy_and_Sell_Stock_III.java" />
+        <option value="$PROJECT_DIR$/src/Test188_Best_Time_to_Buy_and_Sell_Stock_IV.java" />
+        <option value="$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java" />
+        <option value="$PROJECT_DIR$/src/Test309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java" />
       </list>
     </option>
   </component>
@@ -162,8 +215,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -240,7 +294,6 @@
     <property name="last_opened_file_path" value="$USER_HOME$/lujunqiuLeetcode" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="Proxy&#9;PSI&#9;JAVA://java.lang.reflect.Proxy" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="Application.Test437_Path_Sum_III">
     <configuration default="false" name="Test74_Search_a_2D_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -833,15 +886,15 @@
       <workItem from="1512100936200" duration="2152000" />
       <workItem from="1512135438050" duration="149000" />
       <workItem from="1512181908126" duration="6855000" />
-      <workItem from="1512631178774" duration="9329000" />
+      <workItem from="1512631178774" duration="13114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264695000" />
+    <option name="totallyTimeSpent" value="268480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -852,7 +905,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30686694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30686694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -910,41 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test83_Remove_Duplicates_from_Sorted_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test11_Container_With_Most_Water.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.056109726">
-          <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test19_Remove_Nth_Node_From_End_of_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40399003">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test322_Coin_Change.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test14_Longest_Common_Prefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0699433">
@@ -1106,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0714285">
@@ -1145,13 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5752351">
           <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1251,6 +1255,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="2879" column="23" selection-start-line="2879" selection-start-column="23" selection-end-line="2879" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test739_Daily_Temperatures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1264,20 +1286,58 @@
     <entry file="file://$PROJECT_DIR$/src/Test503_Next_Greater_Element_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test742_Closest_Leaf_in_a_Binary_Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/Test121_Best_Time_to_Buy_and_Sell_Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51552796">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test122_Best_Time_to_Buy_and_Sell_Stock_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test123_Best_Time_to_Buy_and_Sell_Stock_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test188_Best_Time_to_Buy_and_Sell_Stock_IV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9244992">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
