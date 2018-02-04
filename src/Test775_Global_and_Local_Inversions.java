@@ -17,6 +17,6 @@
  */
 public class Test775_Global_and_Local_Inversions {
     public boolean isIdealPermutation(int[] A) {
-
+        return false;
     }
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test775_Global_and_Local_Inversions.java" afterPath="$PROJECT_DIR$/src/Test775_Global_and_Local_Inversions.java" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,9 +100,12 @@
       <file leaf-file-name="Test775_Global_and_Local_Inversions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test775_Global_and_Local_Inversions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44510385">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.42284867">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -876,12 +879,12 @@
       <workItem from="1516783740150" duration="414000" />
       <workItem from="1516864149913" duration="756000" />
       <workItem from="1516889235669" duration="2535000" />
-      <workItem from="1517620407180" duration="2318000" />
+      <workItem from="1517620407180" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301714000" />
+    <option name="totallyTimeSpent" value="301783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="1" />
@@ -1313,9 +1316,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test775_Global_and_Local_Inversions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44510385">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.42284867">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
