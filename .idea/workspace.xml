@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cc6b9f-d949-41ca-9e2f-aefefb86a8dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test621_Task_Scheduler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Leetcode.iws" />
@@ -51,9 +50,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,12 +115,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test621_Task_Scheduler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test621_Task_Scheduler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test621_Task_Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5121951">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test779_Kth_Symbol_in_Grammar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test779_Kth_Symbol_in_Grammar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68292683">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test679_24_Game.java" />
         <option value="$PROJECT_DIR$/src/Test494_Target_Sum.java" />
         <option value="$PROJECT_DIR$/src/Test673_Number_of_Longest_Increasing_Subsequence.java" />
         <option value="$PROJECT_DIR$/src/Test675_Cut_Off_Trees_for_Golf_Event.java" />
@@ -199,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/Test168_Excel_Sheet_Column_Title.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Test621_Task_Scheduler.java" />
+        <option value="$PROJECT_DIR$/src/Test779_Kth_Symbol_in_Grammar.java" />
       </list>
     </option>
   </component>
@@ -246,8 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,6 +293,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,22 +310,7 @@
     <property name="SearchEverywhereHistoryKey" value="Obje&#9;PSI&#9;JAVA://java.lang.Object&#10;Hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Proxy&#9;PSI&#9;JAVA://java.lang.reflect.Proxy" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Test621_Task_Scheduler">
-    <configuration default="false" name="Test437_Path_Sum_III" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test437_Path_Sum_III" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test779_Kth_Symbol_in_Grammar">
     <configuration default="false" name="Test283_Move_Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test283_Move_Zeroes" />
@@ -362,6 +359,21 @@
     <configuration default="false" name="Test621_Task_Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test621_Task_Scheduler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test779_Kth_Symbol_in_Grammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test779_Kth_Symbol_in_Grammar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -785,19 +797,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test437_Path_Sum_III" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test283_Move_Zeroes" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test752_Open_the_Lock" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test743_Network_Delay_Time" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test621_Task_Scheduler" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test283_Move_Zeroes" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test752_Open_the_Lock" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test743_Network_Delay_Time" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test621_Task_Scheduler" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test779_Kth_Symbol_in_Grammar" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test621_Task_Scheduler" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test743_Network_Delay_Time" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test752_Open_the_Lock" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test283_Move_Zeroes" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test437_Path_Sum_III" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test779_Kth_Symbol_in_Grammar" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test621_Task_Scheduler" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test743_Network_Delay_Time" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test752_Open_the_Lock" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test283_Move_Zeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -900,12 +912,13 @@
       <workItem from="1517620407180" duration="3625000" />
       <workItem from="1518311492678" duration="1958000" />
       <workItem from="1519361396510" duration="281000" />
-      <workItem from="1519364513508" duration="5015000" />
+      <workItem from="1519364513508" duration="5502000" />
+      <workItem from="1519458756588" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310275000" />
+    <option name="totallyTimeSpent" value="311338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -918,10 +931,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349398" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349398" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31545064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31545064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -977,13 +990,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test724_Find_Pivot_Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70364743">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test81_Search_in_Rotated_Sorted_Array_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88905776">
@@ -1269,9 +1275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05913272">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,9 +1343,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test621_Task_Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5121951">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test779_Kth_Symbol_in_Grammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68292683">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
