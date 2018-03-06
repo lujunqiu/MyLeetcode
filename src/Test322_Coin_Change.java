@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by lujunqiu on 17/9/22.
  * Description:
@@ -25,6 +27,26 @@ public class Test322_Coin_Change {
             for (int coin : coins) {
                 if (i - coin >= 0 && dp[i -coin] != Integer.MAX_VALUE) {//只在可行解中求最小值
                     dp[i] = dp[i] < dp[i - coin] + 1 ? dp[i] : dp[i - coin] + 1;
+                }
+            }
+        }
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
+    }
+
+
+    /*
+    完全背包问题，每件物品可以放入次数没有限制，并且需要恰好装满背包(初始化条件dp[0]为0，其余的dp正无穷)
+    dp[i]表示：将前几件物品放入背包容量为i的时候最少需要的物品数量，要求正好装满背包
+     */
+    public int coinChange2(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 0;
+
+        for (int i = 0; i < coins.length; i++) {
+            for (int j = coins[i]; j <= amount ; j++) {//直接从j=coins[i]开始遍历，因为小于的时候没有意义
+                if(dp[j - coins[i]] != Integer.MAX_VALUE ){//表示如果将前i-1件物品放入j-coins[i]的背包是无解的话，那么当前解只能等于将i-1件物品放入j的背包的解
+                    dp[j] = dp[j] < dp[j - coins[i]] + 1 ? dp[j] : dp[j - coins[i]] + 1;
                 }
             }
         }
